@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav,
+.night_mode {
+  background-color: rgba(23, 25, 29, 0.916);
+  align-items: center;
+}
+
+.card-hover,
+.card-hover2,
+.card-hover3,
+.card-hover4,
+.card-hover5,
+.card-hover6,
+.card-hover7,
+.card-hover8,
+.card-hover9,
+.card-hover10,
+.card-hover11,
+.card-hover12 {
+  display: none;
+}
+.menu-ch,
+.menu,
+.moon {
+  display: none;
+}
+.globus {
+  margin-top: -200px;
+}
+.textcard {
+  margin-top: -100px;
+}
+
+.img1 {
+  display: block;
+  margin-left: 663px;
+}
+.img2 {
+  margin-top: -600px;
+}
+.img3 {
+  margin-top: -700px;
+}
+
+.card_1 {
+  background-image: url(/images/Rectangle\ 9557.jpg);
+  width: 400px;
+  height: 330px;
+}
+.card_2 {
+  background-image: url(/images/Rectangle\ 9558.jpg);
+  width: 400px;
+  height: 330px;
+}
+
+.card_3 {
+  background-image: url(/images/Rectangle\ 9559.jpg);
+  width: 400px;
+  height: 330px;
+}
+
+.card_4,
+.card_9,
+.card_10 {
+  background-image: url(/images/Rectangle\ 9560.jpg);
+  width: 400px;
+  height: 330px;
+}
+
+.card_5,
+.card_8,
+.card_12 {
+  background-image: url(/images/Rectangle\ 9561.jpg);
+  width: 400px;
+  height: 330px;
+}
+
+.card_6,
+.card_7,
+.card_11 {
+  background-image: url(/images/Rectangle\ 9562.jpg);
+  width: 400px;
+  height: 330px;
+}
+
+.card-7 {
+  min-width: 290px;
+  height: 310px;
+  background-image: url(/images/Rectangle\ 9574.png);
+  background-size: cover;
+  padding-top: 250px;
+  border-radius: 70px;
+}
+.card-8 {
+  min-width: 290px;
+  height: 310px;
+  background-image: url(/images/Rectangle\ 9574.jpg);
+  background-size: cover;
+  padding-top: 250px;
+  border-radius: 70px;
+}
+.card-9 {
+  min-width: 290px;
+  height: 310px;
+  background-image: url(/images/Rectangle\ 9574.svg);
+  background-size: cover;
+  padding-top: 250px;
+  border-radius: 70px;
+}
+.card-10 {
+  min-width: 290px;
+  height: 310px;
+  background-image: url(/images/4-bola.jpg);
+  background-size: cover;
+  padding-top: 250px;
+  border-radius: 70px;
+}
+
+@media only screen and (max-width: 376px) {
+  nav {
+    padding: 10px 15px;
+  }
+
+  .menu,
+  .moon {
+    display: block;
+  }
+
+  .nav_ul {
+    display: none;
+  }
+
+  nav > h1 {
+    font-weight: 900;
+  }
+}
+
+.carousel {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.card-1 {
+  transition: all 1s ease;
+}
+.card-2 {
+  transition: all 1s ease;
+}
+.card-3 {
+  transition: all 1s ease;
+}
+.card-4 {
+  transition: all 1s ease;
+}
+.card-5 {
+  transition: all 1s ease;
+}
+.card-6 {
+  transition: all 1s ease;
+}
+.card-7 {
+  transition: all 1s ease;
+}
+.card-8 {
+  transition: all 1s ease;
+}
+.card-9 {
+  transition: all 1s ease;
+}
+.card-10 {
+  transition: all 1s ease;
+}
+.card-11 {
+  transition: all 1s ease;
+}
+.card-12 {
+  transition: all 1s ease;
+}
+
+.prev {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin-left: -75px;
+  margin-top: -352px;
+}
+
+.next {
+  position: absolute;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin-left: 1270px;
+  margin-top: -65px;
+}
+
+.prev2 {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin-left: -75px;
+  margin-top: -190px;
+}
+
+.next2 {
+  position: absolute;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin-left: 1270px;
+  margin-top: -65px;
+}
+
+.wrapper {
+  width: 100%;
+  margin-bottom: 300px;
+}
